@@ -1,28 +1,21 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  div.text-gray-900.antialiased.font-body.leading-normal(lang="en")
+    landing-page
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LandingPage from './components/LandingPage'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LandingPage,
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="css">
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url(//db.onlinewebfonts.com/c/f0968336c01fbfad47f8a946b3b8e0cb?family=GT+Pressura+Mono+Bold);
 </style>
