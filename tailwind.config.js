@@ -87,6 +87,10 @@ module.exports = {
         '160': '39rem',
         '80-vh': '80vh',
       },
+      inset: {
+        '80': '20rem',
+        '140': '35rem',
+      },
       margin: {
         '42': '10.5rem',
       },
@@ -104,7 +108,7 @@ module.exports = {
       },
       maxHeight: {
         'inset-2': 'calc(100vh - 1rem)',
-        '56': '28rem', 
+        '56': '28rem',
       },
       maxWidth: {
         '2xs': '15rem',
